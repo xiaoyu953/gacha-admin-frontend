@@ -30,6 +30,11 @@ const menuItems = [
     ],
   },
   {
+    title: '用户管理', icon: 'User', children: [
+      { path: '/user/customers', title: 'C端用户管理' },
+    ],
+  },
+  {
     title: '商品管理', icon: 'Goods', children: [
       { path: '/product/list', title: '商品列表' },
     ],
