@@ -42,6 +42,18 @@ const routes: RouteRecordRaw[] = [
         meta: { title: '权限管理', icon: 'Lock', roles: ['SUPER_ADMIN'] },
       },
       {
+        path: 'content/tag-types',
+        name: 'ContentTagTypes',
+        component: () => import('@/views/content/TagTypeList.vue'),
+        meta: { title: '标签类型', icon: 'Collection' },
+      },
+      {
+        path: 'content/adverts',
+        name: 'ContentAdverts',
+        component: () => import('@/views/content/AdvertList.vue'),
+        meta: { title: '广告管理', icon: 'Notification' },
+      },
+      {
         path: 'product/list',
         name: 'ProductList',
         component: () => import('@/views/product/ProductList.vue'),

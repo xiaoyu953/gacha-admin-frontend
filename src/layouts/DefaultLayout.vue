@@ -22,6 +22,12 @@ const menuItems = [
     ],
   },
   {
+    title: '内容管理', icon: 'Document', children: [
+      { path: '/content/tag-types', title: '标签类型' },
+      { path: '/content/adverts', title: '广告管理' },
+    ],
+  },
+  {
     title: '商品管理', icon: 'Goods', children: [
       { path: '/product/list', title: '商品列表' },
     ],
