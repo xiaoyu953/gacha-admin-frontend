@@ -48,6 +48,12 @@ const routes: RouteRecordRaw[] = [
         meta: { title: '标签类型', icon: 'Collection' },
       },
       {
+        path: 'content/tags',
+        name: 'ContentTags',
+        component: () => import('@/views/content/TagList.vue'),
+        meta: { title: '标签管理', icon: 'PriceTag' },
+      },
+      {
         path: 'content/adverts',
         name: 'ContentAdverts',
         component: () => import('@/views/content/AdvertList.vue'),
