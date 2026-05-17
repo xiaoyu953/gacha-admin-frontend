@@ -26,6 +26,7 @@ const menuItems = [
       { path: '/content/tag-types', title: '标签类型' },
       { path: '/content/tags', title: '标签管理' },
       { path: '/content/adverts', title: '广告管理' },
+      { path: '/content/banners', title: 'Banner管理' },
     ],
   },
   {

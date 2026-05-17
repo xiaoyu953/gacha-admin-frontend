@@ -60,6 +60,12 @@ const routes: RouteRecordRaw[] = [
         meta: { title: '广告管理', icon: 'Notification' },
       },
       {
+        path: 'content/banners',
+        name: 'ContentBanners',
+        component: () => import('@/views/content/BannerList.vue'),
+        meta: { title: 'Banner管理', icon: 'PictureFilled' },
+      },
+      {
         path: 'product/list',
         name: 'ProductList',
         component: () => import('@/views/product/ProductList.vue'),
