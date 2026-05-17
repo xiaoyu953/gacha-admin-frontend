@@ -72,6 +72,12 @@ const routes: RouteRecordRaw[] = [
         meta: { title: 'C端用户管理', icon: 'UserFilled' },
       },
       {
+        path: 'user/customer-exps',
+        name: 'UserCustomerExps',
+        component: () => import('@/views/user/CustomerExpList.vue'),
+        meta: { title: '经验值等级', icon: 'TrendCharts' },
+      },
+      {
         path: 'product/list',
         name: 'ProductList',
         component: () => import('@/views/product/ProductList.vue'),
