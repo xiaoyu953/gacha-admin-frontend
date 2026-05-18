@@ -33,6 +33,7 @@ const menuItems = [
     title: '用户管理', icon: 'User', children: [
       { path: '/user/customers', title: 'C端用户管理' },
       { path: '/user/customer-exps', title: '经验值等级' },
+      { path: '/user/customer-blacklist', title: '用户黑名单' },
     ],
   },
   {

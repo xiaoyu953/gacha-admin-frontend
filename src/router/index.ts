@@ -78,6 +78,12 @@ const routes: RouteRecordRaw[] = [
         meta: { title: '经验值等级', icon: 'TrendCharts' },
       },
       {
+        path: 'user/customer-blacklist',
+        name: 'UserCustomerBlacklist',
+        component: () => import('@/views/user/CustomerBlacklistList.vue'),
+        meta: { title: '用户黑名单', icon: 'WarningFilled' },
+      },
+      {
         path: 'product/list',
         name: 'ProductList',
         component: () => import('@/views/product/ProductList.vue'),
